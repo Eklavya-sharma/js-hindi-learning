@@ -1,7 +1,7 @@
 
-const accountId = 1234;//constant
-let accountEmail = "sumansourav9359@gamil.com"// local block scope variables
-var accountPassword = "43321"//it is global variables
+const accountId = 1234;//constant variable can't be re decalered or updated at block scope varables
+let accountEmail = "sumansourav9359@gamil.com"// variables can't be redecalered & but we can update a block scope variable
+var accountPassword = "43321"//variables caan be redecalered and updated a global scope variable
 accountCity = "kota"// without create varalbe we can store something
 let accountState;
 
@@ -15,3 +15,5 @@ prefer not to use var
 because of issue in block scope and functional scope
 */
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
+
+
